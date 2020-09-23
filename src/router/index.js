@@ -4,8 +4,9 @@ import BigFileUpload from '../components/BigFileUpload'
 import StopUpload from '../components/StopUpload'
 import QuickUpload from '../components/QuickUpload'
 import SingleFileUpload from '../components/SingleFileUpload'
-import MultiFileUpload from  '../components/MultiFileUpload'
+import MultiFileUpload from '../components/MultiFileUpload'
 import PictureUpload from '../components/PictureUpload'
+import OpenWinFileUpload from '../components/OpenWinFileUpload'
 
 Vue.use(Router)
 
@@ -17,6 +18,7 @@ export default new Router({
     {path:'/quickUpload',component:QuickUpload,name:'quickUpload'},
     {path:'/multiFileUpload',component:MultiFileUpload,name:'multiFileUpload'},
     {path:'/pictureUpload',component:PictureUpload,name:'pictureUpload'},
+    {path:'/openWinFileUpload',component:OpenWinFileUpload,name:'openWinFileUpload'},
     {path:'/',component:SingleFileUpload,name:'singleFileUpload'}
   ]
 })

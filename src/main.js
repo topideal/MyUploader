@@ -7,14 +7,14 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import global from './Global'
 import VueResource from 'vue-resource'
-
+import uploader from 'vue-simple-uploader'
 
 Vue.config.productionTip = false
 Vue.prototype.global = global;
 
 Vue.use(ElementUI);
 Vue.use(VueResource);
-
+Vue.use(uploader)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -31,6 +31,10 @@
               <i class="el-icon-picture"></i>
               <span slot="title">图片上传</span>
             </el-menu-item>
+            <el-menu-item index="openWinFileUpload" @click="redirectUrl('/openWinFileUpload')">
+              <i class="el-icon-picture"></i>
+              <span slot="title">右下角显示上传</span>
+            </el-menu-item>
           </el-menu>
         </el-aside>
         <el-main class="my-main">
